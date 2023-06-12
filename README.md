@@ -8,3 +8,8 @@ Car control system like 'Tesla touchscreen' will be implemented.
 
 - Iteration 1. Make such car control system for a desktop environment.
 - Iteration 2. Port the car control system into embedded linux environment.
+
+### Resources:
+
+<a target="_blank" href="https://icons8.com/icon/10641/lock">Lock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/151/padlock">Unlock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
