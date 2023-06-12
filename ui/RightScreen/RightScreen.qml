@@ -65,13 +65,67 @@ Rectangle {
             topMargin: 8
         }
 
-        font
-        {
+        font {
             pixelSize: 14
             bold: true
         }
         color: "black"
 
         text: qsTr(systemHandler.currentTime)
+    }
+
+    Text {
+        id: temperatoreText
+        anchors {
+            top: parent.top
+            left: timeText.right
+            leftMargin: 16
+
+            topMargin: 8
+        }
+
+        font {
+            pixelSize: 14
+            bold: true
+        }
+        color: "black"
+
+        text: qsTr(systemHandler.outTemp + "°F")
+    }
+
+    Image {
+        id: userIcon
+        source: "qrc:/ui/asset/icon_user.png"
+
+        anchors {
+            top: parent.top
+            left: temperatoreText.left
+
+            topMargin: 8
+            leftMargin: 16*8
+        }
+
+        height : 16
+
+        fillMode: Image.PreserveAspectFit
+    }
+
+    Text {
+        id: userName
+        anchors {
+            top: parent.top
+            left: userIcon.right
+            leftMargin: 8
+
+            topMargin: 8
+        }
+
+        font {
+            pixelSize: 14
+            bold: true
+        }
+        color: "black"
+
+        text: qsTr(systemHandler.userName)
     }
 }
