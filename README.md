@@ -11,5 +11,6 @@ Car control system like 'Tesla touchscreen' will be implemented.
 
 ### Resources:
 
-<a target="_blank" href="https://icons8.com/icon/10641/lock">Lock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-<a target="_blank" href="https://icons8.com/icon/151/padlock">Unlock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/10641/lock">Lock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/151/padlock">Unlock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/83190/user">User</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

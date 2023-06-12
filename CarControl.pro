@@ -23,3 +23,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
   Controller/system.h
+
+DISTFILES += \
+  README.md
