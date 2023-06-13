@@ -10,5 +10,6 @@
         <file>ui/asset/icon_user.png</file>
         <file>ui/asset/icon_search.png</file>
         <file>ui/RightScreen/NavSearchBox.qml</file>
+        <file>ui/asset/icon_setting.png</file>
     </qresource>
 </RCC>

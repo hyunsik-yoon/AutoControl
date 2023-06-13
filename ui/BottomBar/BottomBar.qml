@@ -7,7 +7,25 @@ Rectangle {
         bottom: parent.bottom
     }
 
-    height: parent.height / 12
+    height: 32+8+8
     color: "orange"
     visible: true
+
+    Image {
+        id: settingIcon
+
+        anchors {
+            top: parent.top
+            topMargin: 8
+
+            bottom: parent.bottom
+            bottomMargin: 8
+
+            left: parent.left
+            leftMargin: 16
+        }
+        fillMode: Image.PreserveAspectFit
+
+        source: "qrc:/ui/asset/icon_setting.png"
+    }
 }
