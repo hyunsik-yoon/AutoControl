@@ -16,6 +16,14 @@ Rectangle {
     Plugin {
         id: mapPlugin
         name: "osm"
+        PluginParameter {
+            name: "osm.mapping.providersrepository.disabled"
+            value: "true"
+        }
+        PluginParameter {
+            name: "osm.mapping.providersrepository.address"
+            value: "http://maps-redirect.qt.io/osm/5.6/"
+        }
     }
 
     Map {
@@ -127,5 +135,15 @@ Rectangle {
         color: "black"
 
         text: qsTr(systemHandler.userName)
+    }
+
+    NavSearchBox {
+        id: navSearchBox
+        anchors {
+            left: lockIcon.left
+            top: lockIcon.bottom
+
+            topMargin: 16
+        }
     }
 }
