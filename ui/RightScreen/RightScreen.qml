@@ -128,4 +128,14 @@ Rectangle {
 
         text: qsTr(systemHandler.userName)
     }
+
+    NavSearchBox {
+        id: navSearchBox
+        anchors {
+            left: lockIcon.left
+            top: lockIcon.bottom
+
+            topMargin: 16
+        }
+    }
 }
