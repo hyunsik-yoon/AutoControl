@@ -11,5 +11,8 @@
         <file>ui/asset/icon_search.png</file>
         <file>ui/RightScreen/NavSearchBox.qml</file>
         <file>ui/asset/icon_setting.png</file>
+        <file>ui/BottomBar/HVAC.qml</file>
+        <file>ui/asset/icon_inc_triangle.png</file>
+        <file>ui/asset/icon_dec_triangle.png</file>
     </qresource>
 </RCC>

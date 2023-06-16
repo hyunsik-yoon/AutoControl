@@ -4,6 +4,7 @@
 #include <QDebug>
 
 #include "Controller/system.h"
+#include "Controller/hvac.h"
 
 int main(int argc, char *argv[])
 {
@@ -20,10 +21,20 @@ int main(int argc, char *argv[])
                 QCoreApplication::exit(-1);
         }, Qt::QueuedConnection);
 
+    QQmlContext *qmlContext = engine.rootContext();
     System systemHandler;
     {
-        QQmlContext *qmlContext = engine.rootContext();
         qmlContext->setContextProperty("systemHandler", &systemHandler);
+    }
+
+    HVAC driverHVAC;
+    {
+        qmlContext->setContextProperty("driverHVACController", &driverHVAC);
+    }
+
+    HVAC passengerHVAC;
+    {
+        qmlContext->setContextProperty("passengerHVACController", &passengerHVAC);
     }
 
     engine.load(url);
