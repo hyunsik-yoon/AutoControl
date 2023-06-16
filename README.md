@@ -2,7 +2,9 @@
 
 This is a project to research QT/QML.
 
-Car control system like 'Tesla touchscreen' will be implemented.
+In this repo, Car control system like 'Tesla touchscreen' will be implemented.
+
+I followed instruction shown in https://youtu.be/Tq-E6lqO6tM and https://www.youtube.com/watch?v=MEdJNc1tfwE with some modification by myself.
 
 ## Plan
 
